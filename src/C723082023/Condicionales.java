@@ -9,7 +9,7 @@ public class Condicionales {
 
         //System.out.println("Está funcionando");
 
-        //OPERADORES
+        /*******OPERADORES*********/
         //Aritméticos(+, -, /, *, %, ++, --, =, +=, -=)
 
         Integer num1 = 5;
@@ -28,10 +28,12 @@ public class Condicionales {
         //Lógicos(&&, ||, !) = "y", "o" y el "not"
         // && evalúa que ambas expresiones sean verdaderas y si alguna de las dos es falsa el resultado es falso
         // ||
-        /*
-        System.out.println("El resultado es :" + ((num1 == num3) && (num2 == num3)));
-        System.out.println("El resultado de las comparaciones es :" + (((num1 == num4) || (num1 == num3)) && (num4 == num1)));
-        System.out.println(!(num1 == num3));
+
+        //System.out.println("El resultado es :" + ((num1 == num3) && (num2 == num3)));
+        //System.out.println("El resultado de las comparaciones es :" + (((num1 == num4) || (num1 == num3)) && (num4 == num1)));
+        //System.out.println(!(num1 == num3));
+       /******/
+
 
         //Condicionales
         //"Si la expresión es verdadera, haz esto si no, haz esto otro"
@@ -41,7 +43,7 @@ public class Condicionales {
             System.out.println("Lo lograste!");
         } else {
             System.out.println("Es falso");
-        }*/
+        }
 
         /**SWITCH CASE**/
         /*
@@ -66,29 +68,56 @@ public class Condicionales {
         }*/
 
         /**BÚCLES**/
-        /*BÚCLE WHILE*/
-        //Bucle que se va a ejecutar "mientras" una condición resulte como true
-        Scanner scanner = new Scanner(System.in);
-        //System.out.println("Por favor ingresa un número del 1 al 10");
-        //Integer numEscogido = scanner.nextInt();
+        /*BÚCLE WHILE
+        Bucle que se va a ejecutar "mientras" una condición resulte como true
 
-        /*
-        while (numEscogido <= 10) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Por favor ingresa un número del 1 al 10");
+        Integer numEscogido = scanner.nextInt();
+
+        while (numEscogido > 10) {
             System.out.println("En la " + numEscogido + " vuelta el número es: " + numEscogido);
             numEscogido++;
-        }*/
+        }
 
         /*BÚCLE DO WHILE*/
-        //Búcle que se ejecuta por lo menos una vez
-        Integer opcion = 0;
+        /*Búcle que se ejecuta por lo menos una vez
+        Integer opcion = 3;
+
 
         do {
             System.out.println("Seleccione una opción: 1- Entrar al promedio de notas y 2-El cuadro de honor");
             opcion = scanner.nextInt();
         } while (opcion != 3);
 
-        /*BÚCLE FOR*/
+         */
 
+        /*BÚCLE FOR*/
+        /*
+         1)Declarar e inicializar la variable iteradora o acumuladora
+         2) Indicar la condición de término
+         3) Indicar la acción con cada iteración
+
+        for (int i = 0; i <= 100; i++ ) {
+            System.out.println("En esta vuelta i vale: " + i);
+        }
+        */
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingresa tu nombre");
+        String nombreUsuario = scanner.next();
+
+        for (int i = 0; i < nombreUsuario.length(); i++ ) {
+            System.out.println(nombreUsuario.charAt(i));
+        }
+
+
+        Integer variableAcumuladora = 0;
+        while (variableAcumuladora < nombreUsuario.length()) {
+            System.out.print(nombreUsuario.charAt(variableAcumuladora));
+            variableAcumuladora++;
+        }
 
         /*******/
 
@@ -107,6 +136,11 @@ public class Condicionales {
 
 
 
+
+
+
+
     }
+
 
 }
