@@ -2,10 +2,11 @@ package C724082023;
 
 import java.util.Scanner;
 
-public class Calculadora {
+public class EjercicioCalculadora {
 
     public static void main(String[] args) {
-        imprimirMenu(0);
+
+       imprimirMenu(0);
     }
 
     //función sin retorno
