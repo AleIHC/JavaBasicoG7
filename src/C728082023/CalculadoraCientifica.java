@@ -31,7 +31,6 @@ public class CalculadoraCientifica extends Calculadora {
         return num1 - num2;
     }
 
-
     //Sobrecarga de métodos, declarar la función pero agregando más argumentos y estos pueden tener distintos tipos de dato
     public Double suma(double num1, double num2) {
         System.out.println("El resultado es: ");

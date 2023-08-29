@@ -37,7 +37,11 @@ public class Main {
         System.out.println("En la clase padre el método da como resultado: " + calculadoraNormal.resta(10,5));
         System.out.println("**********************");
         System.out.println("En la clase hija el método da como resultado: " + calculadoraCasioC.resta(10,5));
-        //Ej
+
+        //Ejemplo de polimorfismo mediante sobrecarga
+        System.out.println("En la clase padre el método da como resultado: " + calculadoraNormal.suma(10,5));
+        System.out.println("**********************");
+        System.out.println("En la clase hija el método da como resultado: " + calculadoraCasioC.suma(10.43,5.55));
 
 
 
