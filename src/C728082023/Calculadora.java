@@ -7,7 +7,7 @@ public class Calculadora {
     Double alto;
     Double ancho;
     String marca;
-    Boolean esCientifica;
+    //Boolean esCientifica;
     Integer memoria;
     Integer cantidadMaxDeDigitos;
 
@@ -22,7 +22,6 @@ public class Calculadora {
         this.alto = alto;
         this.ancho = ancho;
         this.marca = marca;
-        this.esCientifica = esCientifica;
         this.memoria = memoria;
         this.cantidadMaxDeDigitos = cantidadMaxDeDigitos;
     }
@@ -61,7 +60,6 @@ public class Calculadora {
                 ", alto=" + alto +
                 ", ancho=" + ancho +
                 ", marca='" + marca + '\'' +
-                ", esCientifica=" + esCientifica +
                 ", memoria=" + memoria +
                 ", cantidadMaxDeDigitos=" + cantidadMaxDeDigitos +
                 '}';

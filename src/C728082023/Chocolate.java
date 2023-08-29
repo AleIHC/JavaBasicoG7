@@ -21,7 +21,7 @@ public class Chocolate {
         this.porcentajeCacao = porcentajeCacao;
     }
 
-    //ToString
+    //ToString, es para trabajar con la consola
     @Override
     public String toString() {
         return "" +

@@ -17,7 +17,6 @@ public class Main {
         Calculadora calculadoraCasio = new Calculadora("Plata", 10.00,
                 5.00, "Casio", true, 10, 15);
         System.out.println(calculadoraCasio.toString());
-        */
 
         ArrayList<Chocolate> cajaDeChocolates = new ArrayList<>();
 
@@ -28,5 +27,20 @@ public class Main {
             cajaDeChocolates.add(chocolateNuevo);
             System.out.println("El chocolate número: " + i + " tiene las siguientes características: " + chocolateNuevo);
         }
+         */
+
+        CalculadoraCientifica calculadoraCasioC = new CalculadoraCientifica();
+        //System.out.println(calculadoraCasioC.resta(50, 20));
+        //System.out.println(calculadoraCasioC.datosTrignometricos("Seno"));
+        Calculadora calculadoraNormal = new Calculadora();
+        //Ejemplo de polimorfismo mediante sobreescritura
+        System.out.println("En la clase padre el método da como resultado: " + calculadoraNormal.resta(10,5));
+        System.out.println("**********************");
+        System.out.println("En la clase hija el método da como resultado: " + calculadoraCasioC.resta(10,5));
+        //Ej
+
+
+
+
     }
 }
